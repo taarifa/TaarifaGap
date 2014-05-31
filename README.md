@@ -1,0 +1,4 @@
+TaarifaGap
+==========
+
+Taarifa Phonegap App
