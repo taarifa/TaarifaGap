@@ -42,7 +42,7 @@
 
     <div id="viewWPPage" data-role="page" >
 
-        <div data-role="header" data-theme="e" class="header">
+        <div data-role="header" class="header">
             <a href="#" data-role="button" data-rel="back" data-icon-pos="left" data-icon="back">Back</a>
             <h1>Water Points</h1>
         </div><!-- /header -->
@@ -92,121 +92,13 @@
 
     </div>
 
-    <div id="agendaListPage" data-role="page">
-
-        <div data-role="header" data-theme="e">
-            <a href="#" data-role="button" data-rel="back" data-icon-pos="left" data-icon="back">Back</a>
-            <h1>Agenda</h1>
-        </div><!-- /header -->
-        
-        <div data-role="content">
-            <ul id="agendaList" data-role="listview" data-filter="true"></ul>
-        </div>
-
-    </div>
-
-    <div id="aboutPage" data-role="page">
-
-        <div data-role="header" data-theme="e">
-            <a href="#" data-role="button" data-rel="back" data-icon-pos="left" data-icon="back">Back</a>
-            <h1>About HOF</h1>
-        </div><!-- /header -->
-        
-        <div data-role="main" class="ui-content">
-
-            <div id="wrapper">
-                <div id="logoHeader">
-                    <img src="pics/logo.png" id="logo" />
-                </div>
-            </div>
-            <div data-role="collapsibleset">
-                <div data-role="collapsible" data-collapsed="false">
-                    <h1>Get To Know Us</h1>
-                    <p>Hall of Fame (HoF) is an annual social-educational event organized by DAELIT Group and Mzumbe University Students. Hall of Fame aims to honour college students' efforts towards designing solutions for various problems facing their University Community and the Society at large. We recognize students who have taken their skills from class into the real world by designing solutions to address various issues.</p>
-                </div>
-                <div data-role="collapsible">
-                    <h1>Team behind Hall Of Fame</h1>
-                    <p>
-                        <ul data-role="listview">
-                            <li>Adam Anthony - Chairman of the team</li>
-                            <li>Boaz Mtawa - Media, communication and acting chief coordinator of HOF 2014 Event</li>
-                            <li>Lusajo Asajile - Planning and Administration</li>
-                            <li>Theddy Ladislaus - Finance and sponsorship </li>
-                            <li>Marx Chocha - Marketing and public relations</li>
-                            <li>Frank Ntabaye - Planning and Administration</li>
-                            <li>Patrick Mboki - Marketing and public relations</li>
-                            <li>Mnirah Abbas - Marketing and public relations</li>
-                            <li>Innocent mkota - Finance and sponsorship</li>
-                            <li>Nassoro Yusuph - Media and Communication</li>
-                        </ul>
-                    </p>
-                </div>
-                <div data-role="collapsible">
-                    <h1>Objectives</h1>
-                    <p>
-                        <ul data-role="listview">
-                            <li>To build a Platform for students at college level to utilize their knowledge and skills in improving their communities by supporting their already-established initiatives with seed funding.</li>
-                            <li>To award students who have shown excellence in areas such as innovation, entrepreneurship, community service with tools such as mentorship, trainings and internships to advance their already-possesed skills.</li>
-                            <li>To establish a special scholarship fund for students who have proven exellence in college but face financial constraints such as tuition fees and study resources in their pursuit of knowledge in college.</li>
-                        </ul>
-                    </p>
-                </div>
-                <div data-role="collapsible">
-                    <h1>Why go mobile ?</h1>
-                    <p>Mobile and Tablets are slowly replacing laptops as laptops are replacing desktops - This being said, the Hall of Fame team decided on using this technology to create it's own mobile app with the help of GetCore Group.</p>
-
-                    <p>The Hall of Fame mobile application was build for the purpose of simplyfing the communication channel and reporting the needful information about the event.</p>
-
-                    <p>The App has features like Event Timer, Registration, Agenda, Testimonials and Finalists in it's initial version.</p>
-
-                    <p>The app will continue to be updated and have more features for the reason of keeping the participants, winners and prospective registrands in touch with Hall of Fame.</p>
-                </div>
-                <div data-role="collapsible">
-                    <h1>GetCore Group</h1>
-                    <p>GetCore Group is a software company that helps clients boost their businesses by creating exceptional digital technology.</p>
-
-                    <p>GetCore Group consists of a very talented, skilled and professional team that works to bring your ideas into reality taking in your requirements &amp; engineering ground breaking solutions.</p>
-
-                    <p>We offer a wide range of services such as Website &amp; Mobile Development, Web Hosting, Graphic Designing, Search Engine Optimization (SEO) and Social Media Management.</p>
-
-                    <p>We have worked with companies from different industries including but not limited to Consulting, Advertising, Entertainment, NGO's, Technology, Aviation and many more.</p>
-
-                    <p>To get to know more about us, please feel free to view our website <a href="http://www.getcoregroup.com/">http://www.getcoregroup.com/</a></p>
-
-                    <p>We are ready to bring your ideas into reality and help you and your business grow.</p>
-                </div>
-            </div>
-        </div>        
-
-    </div>
-
     <script src="js/jquery.js"></script>
     <script src="js/jquery.mobile-1.0rc1.min.js"></script>
     <script src="js/winnerlist.js"></script>
     <script src="js/winnerdetails.js"></script>
-    <script src="js/agenda.js"></script>
     <script src="js/register.js"></script>
 
     <script src="js/jquery.plugin.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script>
-    $(function () {
-        var austDay = new Date();
-        // austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
-        austDay = new Date(2015, 12-9, 4);
-        $('#defaultCountdown').countdown({until: austDay, timezone: -5});
-    });
-
-    // $('#registerLink').click(function() {
-    //     // check connection
-    //     var status = navigator.onLine ? 'online' : 'offline';
-    //     if (status === 'online') {
-    //         $.mobile.changePage("#registerPage");
-    //     } else {
-    //         alert('You need INTERNET connection to register. Try again later!');
-    //     }
-    // });
-    </script>
     
 </body>
 
