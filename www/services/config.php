@@ -1,9 +1,9 @@
 <?php
 
-  	$dbhost = 'localhost';
-    $dbuser = 'yzs06tcn_sema';
-    $dbpass = '{HfyCskS&=1X';
-    $dbname = 'yzs06tcn_sema';
+  	$dbhost = '';
+    $dbuser = '';
+    $dbpass = '';
+    $dbname = '';
 
     // $dbhost = 'localhost';
     // $dbuser = 'root';
