@@ -14,8 +14,8 @@ function displayWP(data) {
 		}
 	});
 
-	var datum = '{"service_code": "wps001","attribute": {"waterpoint_id":"0202309922WP34" , "status":"Functional"}}';
-	$('#description').append('<form method="POST" action="http://pgntester.jango.me:5000/api/requests"><input type="submit" value="Update Status" /></form>');
+	var datum = '';
+	$('#description').append('<form method="POST" action=""><input type="submit" value="Update Status" /></form>');
 
 	$.each(wp, function(key, val) {
 		if (key != "latitude" && key != "longitude" && key != "_links" 
